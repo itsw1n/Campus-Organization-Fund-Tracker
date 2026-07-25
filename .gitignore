@@ -1,9 +1,15 @@
+# Stray empty clone of the remote that was sitting inside the working tree.
+# Git would otherwise try to add it as an embedded repository (gitlink).
+/Disaster-Relief-Donation-Tracker/
+
 # Rust / Soroban
 /target
 **/*.rs.bk
-Cargo.lock
+# NOTE: Cargo.lock is deliberately NOT ignored. Contracts compile to a
+# deployed binary, so the exact dependency set must be reproducible -- a
+# drifting lockfile means a wasm hash that no longer matches what was audited.
 
-# Node / Next.js (the web/ app keeps its own .gitignore too)
+# Node / Next.js (frontend/ keeps its own .gitignore too)
 node_modules
 .next
 *.log
@@ -12,6 +18,10 @@ node_modules
 .env
 .env.local
 .env*.local
+
+# Stellar CLI local state (identity secret keys -- never commit)
+.stellar/
+.soroban/
 
 # OS / editor
 .DS_Store
