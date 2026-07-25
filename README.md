@@ -44,7 +44,7 @@ StellarX Philippines — Student Organization Track
 ## Setup & Run
 
 ```bash
-git clone https://github.com/itsw1n/Campus-Organization-Fund-Tracker.git
+git clone https://github.com/itsw1n/TreasuryChain.git
 cd Campus-Organization-Fund-Tracker/web
 npm install
 npm run dev
