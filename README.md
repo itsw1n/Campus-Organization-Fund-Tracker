@@ -1,12 +1,12 @@
 # Campus Organization Fund Tracker
 
-A transparent blockchain-powered treasury management platform for student organizations.
+A transparent blockchain-powered treasury management platform for school organizations.
 
 ## Problem
 
-Student organizations collect funds from membership fees, event registrations, sponsorships, donations, and merchandise sales — but financial management relies on spreadsheets or manual bookkeeping. Members cannot easily verify how funds are spent, financial reports are delayed or unavailable, historical records may be modified or lost, and leadership transitions make auditing difficult. This reduces trust between officers and members.
+School organizations collect funds from membership fees, event registrations, sponsorships, donations, and merchandise sales — but financial management relies on spreadsheets or manual bookkeeping. Members cannot easily verify how funds are spent, financial reports are delayed or unavailable, historical records may be modified or lost, and leadership transitions make auditing difficult. This reduces trust between officers and members.
 
-In the Philippines, student organizations in universities like PUP manage significant funds with little to no financial transparency. This project brings blockchain-verified accountability to school organizations.
+This project brings blockchain-verified accountability to school organizations.
 
 ## How It Works
 

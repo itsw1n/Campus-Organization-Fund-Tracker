@@ -3,10 +3,10 @@
 ## Idea
 - **Track:** Student Organization / Social Impact
 - **Idea # :**
-- **One-liner:** A blockchain-powered treasury management platform that lets student organizations track income and expenses transparently on Stellar.
+- **One-liner:** A blockchain-powered treasury management platform that lets school organizations track income and expenses transparently on Stellar.
 
 ## Problem
-Student organizations collect funds from fees, donations, sponsorships, and events — but manage them through spreadsheets. Members can't easily verify spending, reports are delayed, records get lost during leadership transitions, and trust erodes. Many Philippine university orgs face this exact problem.
+School organizations collect funds from fees, donations, sponsorships, and events — but manage them through spreadsheets. Members can't easily verify spending, reports are delayed, records get lost during leadership transitions, and trust erodes.
 
 ## How it uses Stellar
 - **Soroban smart contracts** to store financial records (income, expenses, timestamps, categories) immutably on-chain
