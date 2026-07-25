@@ -45,19 +45,31 @@ StellarX Philippines — Student Organization Track
 
 ```bash
 git clone https://github.com/itsw1n/TreasuryChain.git
-cd Campus-Organization-Fund-Tracker/web
+cd TreasuryChain/frontend
 npm install
+cp .env.example .env.local
 npm run dev
 ```
 
-No environment variables needed for basic payments demo — `web/.env.local` is pre-configured for testnet. For the Soroban contract panel, deploy the contract and set `NEXT_PUBLIC_CONTRACT_ID`.
+`.env.example` documents every variable. To deploy your own contract and wire it
+up automatically (builds the wasm, deploys to testnet, regenerates the
+TypeScript bindings, and writes `NEXT_PUBLIC_CONTRACT_ID`):
+
+```bash
+./scripts/deploy.sh          # or .\scripts\deploy.ps1 on Windows
+```
+
+Then open `/dashboard`, connect the treasurer's Freighter wallet, and create the
+organization. That step is signed by the treasurer and can only happen once —
+the wallet that signs it becomes the only address allowed to record
+transactions.
 
 ## Network Details
 
 - Network: testnet
 - RPC URL: https://soroban-testnet.stellar.org
-- Contract IDs: Set after deploying `contracts/savings-goal`
-- Asset issuers: N/A (uses testnet XLM and USDC SAC)
+- Contract: deploy `contracts/treasury`, then set `NEXT_PUBLIC_CONTRACT_ID`
+- Assets: none — this is a record-keeping ledger and holds no funds
 
 ## Team
 
